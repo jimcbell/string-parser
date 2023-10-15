@@ -8,7 +8,7 @@
         {
             Stream stream = File.OpenRead(pathToFile);
             StreamReader sr = new StreamReader(stream);
-            string _content = sr.ReadToEnd();
+            _content = sr.ReadToEnd();
         }
         public void ReplaceEscapeCharacters()
         {

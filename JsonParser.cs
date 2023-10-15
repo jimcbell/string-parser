@@ -11,7 +11,6 @@ namespace CodeParser
         public static string ParseFileForJson(string path)
         {
             Parser parser = new(path);
-            parser.ReplaceEscapeCharacters();
             return parser.GetFormattedContent();
         }
     }
